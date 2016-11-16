@@ -1,0 +1,106 @@
+/*futurama dark green: #148663
+futurama red: #D50406
+futurama gold:	#DAD547
+
+#06373E*/ 
+
+/*.answers {background-color: #70E3A0; 
+    padding:10px; }
+*/
+label {width:100%}
+
+
+ form input[type="radio"]:checked + div.card {
+   background-color: #309672;
+     font-weight:500;
+     color:#F2F5EE;
+    
+       
+;
+ }
+
+ form input[type="radio"] + div.card {
+   background-color: #91CF8E;
+     color: #D50406;
+     font-weight:500;
+     padding:14px;
+     
+ }
+body {background-color: #CBEEF2;
+font-family: 'Bree Serif', serif;}
+
+.btn {background-color: #06373E;}
+
+p {color: #D50406;
+font-size:25px;}
+
+h1, h2 {color: #06373E}
+
+#questionDisplay {font-size:2em;}
+
+label {font-size:1.3em;}
+
+.btn {font-size:1.3em;}
+
+.message {background-color:#acd5c6;
+            padding:7px;}
+
+.last-message {background-color:#acd5c6;
+            padding:7px;
+            }
+.large {font-size:2em;}
+
+.container-fluid {padding-bottom:2em;
+                    padding-left:1em;
+                    padding-right:1em;}
+.container {padding-bottom:2em;}
+
+
+@media (max-width: 568px) {
+  .container {
+    width: 550px;
+    font-size:120%;
+    }
+    p {font-size: 60px;}
+     label {font-size:3em;}
+    .btn {font-size:3em;}
+    .large {font-size:3em;}
+}
+    
+@media (max-width: 674px) {
+  .container {
+    width: 664px;
+      font-size:120%;
+  }
+    p {font-size: 60px;}
+     label {font-size:3em;}
+    .btn {font-size:3em;}
+     .large {font-size:3em;}
+}
+
+@media (max-width: 780px) {
+  .container {
+    width: 765px;
+      font-size:120%;
+  }
+   p {font-size: 60px;}
+     label {font-size:3em;}
+    .btn {font-size:3em;}
+     .large {font-size:3em;}
+    
+}
+@media (max-width: 992px) {
+  .container {
+    width: 970px;
+      font-size:110%
+  }
+    p {font-size: 55px;}
+     label {font-size:3em;}
+    .btn {font-size:3em;}
+     .large {font-size:3em;}
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
